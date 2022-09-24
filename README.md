@@ -7,9 +7,10 @@ This is useful if you have a server where by the bot can download large telegram
 # Setup
 
  - Get a [Telegram API KEY](https://my.telegram.org/apps) and a bot token from [Bot Father](https://t.me/botfather). You can get more information [here](https://docs.pyrogram.org/start/auth.html).
- - Follow this [Guide](https://d35mpxyw7m7k7g.cloudfront.net/bigdata_1/Get+Authentication+for+Google+Service+API+.pdf) to get a detailed explanation on how to authentication for Google Service API. On the 5th pag of this guide, you will download a json file. **Rename it to `client_secrets.json`**
- - Fill in your client id and client secret from the `client_secrets.json` file to the `settings.yaml` file.
- - Fil in your Telegram user-id on the `main.py` file.
+ - Follow this [Guide](https://d35mpxyw7m7k7g.cloudfront.net/bigdata_1/Get+Authentication+for+Google+Service+API+.pdf) to get a detailed explanation on how to get authentication for Google Service API.
+ - On the 5th page of the guide above, you will download a json file. **Rename it to `client_secrets.json`**
+ - Fill in your `client id` and `client secret` from the `client_secrets.json` file to the `settings.yaml` file.
+ - Fil in your Telegram user-id on the `main.py` file. This is so the bot saves files only from you.
 
 # How to use
 Clone the repository:
